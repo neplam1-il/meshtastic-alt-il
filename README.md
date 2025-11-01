@@ -58,6 +58,21 @@ You can import the shared `.toml` or `.json` config from [config/](config/) dire
 | **Transmission** | ✅ Enabled | |
 | **Max Hops** | 7 | Recommended for stable mesh performance |
 
+## 🔗 Channels
+
+Meshtastic devices use channels to communicate securely within a network. Our community uses a shared channel configuration:
+
+| Parameter          | Value                        | Notes |
+|-------------------|------------------------------|-------|
+| **TBD**         |TBD               | TBD |
+
+
+**Tips for Channels:**
+- Always import our shared channel configuration to avoid conflicts.
+- Adjust the number of hops depending on your network density.
+- Do not modify frequency slots unless you are certain about local regulations.
+
+
 ## 📦 Recommended Mesh Devices for Starters
 
 If you're new to Meshtastic, here are some popular and beginner-friendly devices that work well with our shared network settings:

@@ -22,7 +22,7 @@ This document helps users configure their Meshtastic devices with:
 ## 🛠 Getting Started
 
 ### 1. Flash Your Device
-Use the [Meshtastic Flasher](https://flasher.meshtastic.org/) or `esptool` to install the latest firmware.
+Use the [Meshtastic Flasher](https://flasher.meshtastic.org/) to install the latest firmware.
 
 ### 2. Load Our Configuration
 You can import the shared `.toml` or `.json` config from [config/](config/) directory:

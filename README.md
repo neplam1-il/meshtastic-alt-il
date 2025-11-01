@@ -1,18 +1,7 @@
 # meshtastic-alt-il
 Community guide for configuring Meshtastic devices with our shared frequency, encryption, and network settings.
-
-meshtastic-community-setup/
-│
-├── README.md                     ← Main guide / introduction
-├── CONFIGURATION.md              ← Detailed setup instructions
-├── HARDWARE.md                   ← Supported radios, antennas, power setups
-├── NETWORK.md                    ← Channel name, frequency, modem settings
-├── TIPS.md                       ← Troubleshooting, FAQs
-├── assets/                       ← Screenshots, diagrams
-│   ├── wiring-diagram.png
-│   └── screenshot-flasher.png
-└── .github/
-    └── CONTRIBUTING.md           ← How others can edit / contribute
+# Community telegram 
+https://t.me/+QtB8ra5kUtE3OTVk
 
 # Meshtastic Community Setup Guide 🌐
 

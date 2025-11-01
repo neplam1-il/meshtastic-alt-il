@@ -51,11 +51,11 @@ You can import the shared `.toml` or `.json` config from [config/](config/) dire
 |------------|----------|-------|
 | **Region** | United States | Set this in device settings |
 | **Preset** | Long and Fast | Good balance of range and latency |
-| **Frequency Slot** | 70 | |
-| **Center Frequency** | 919.375 MHz | |
-| **MQTT** | ✅ Enabled | OK to use with community broker |
+| **Frequency Slot** |  70 | Important: Use Frequency Slot 70 (919.375 MHz) for this network. |
+| **Center Frequency** |  919.375 MHz |Important: Use Frequency Slot 70 (919.375 MHz) for this network. |
+| **MQTT** | Enabled | OK to use with community broker |
 | **MQTT** | MQTT Root Topic | mesh\US\IL972 |
-| **Transmission** | ✅ Enabled | |
+| **Transmission** |  Enabled | |
 | **Max Hops** | 7 | Recommended for stable mesh performance |
 
 ## 🔗 Channels
@@ -81,7 +81,7 @@ If you're new to Meshtastic, here are some popular and beginner-friendly devices
 |--------|-------|
 | **TTGO T-Beam (ESP32 + LoRa)** | Includes GPS, easy to flash, popular in the Meshtastic community. Great for outdoor use. |
 | **TTGO T-Call (ESP32 + LoRa + GSM)** | Similar to T-Beam, with cellular fallback. Useful if you want occasional LTE messages. |
-| **Heltec WiFi LoRa 32 V3/V4** | Compact, includes OLED display, V3 has 0.96" OLED, V4 has updated board layout. No GPS, but works well for indoor/outdoor mesh communication. |
+| **Heltec WiFi LoRa 32 V3/V4** | Compact, includes OLED display, V3 has 0.96" OLED, V4 has updated board layout. No GPS, high battery comsumtion. |
 | **Generic ESP32 + LoRa modules** | Requires a bit more DIY effort but very flexible for experimenting with mesh networks. |
 
 **Tips for beginners:**

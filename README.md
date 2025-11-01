@@ -58,7 +58,7 @@ You can import the shared `.toml` or `.json` config from [config/](config/) dire
 | **Transmission** |  Enabled | |
 | **Max Hops** | 7 | Recommended for stable mesh performance |
 
-## 🔗 Channels
+## 🔗📊 Channels
 
 Meshtastic devices use channels to communicate securely within a network. Our community uses a shared channel configuration:
 
@@ -91,8 +91,6 @@ If you're new to Meshtastic, here are some popular and beginner-friendly devices
 - **Important:** Always select the proper frequency for your region. Using the wrong frequency may be illegal or could interfere with other radio services.
 
 ```bash
-sss
-# Telegram community
-https://t.me/+QtB8ra5kUtE3OTVk
+
 
 .

@@ -16,7 +16,6 @@ This document helps users configure their Meshtastic devices with:
 - The correct frequency and modem settings
 - Shared channel name and encryption
 - Recommended hardware and power setups
-- Optional integrations (MQTT, Android, Node-RED, etc.)
 
 ---
 
@@ -27,6 +26,21 @@ Use the [Meshtastic Flasher](https://flasher.meshtastic.org/) or `esptool` to in
 
 ### 2. Load Our Configuration
 You can import the shared `.toml` or `.json` config from [config/](config/) directory:
-```bash
+
 meshtastic --configure ./config/community.toml
 
+## ⚙️ Configuration Summary
+
+
+| Parameter | Setting | Notes |
+|------------|----------|-------|
+| **Region** | United States | Set this in device settings |
+| **Preset** | Long and Fast | Good balance of range and latency |
+| **Frequency Slot** | 70 | |
+| **Center Frequency** | 919.375 MHz | |
+| **MQTT** | ✅ Enabled | OK to use with community broker |
+| **Transmission** | ✅ Enabled | |
+| **Max Hops** | 7 | Recommended for stable mesh performance |
+
+```bash
+sss

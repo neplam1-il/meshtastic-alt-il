@@ -4,8 +4,9 @@
 
 If you discover a security issue with any content, scripts, or configurations in this repository, please report it responsibly:
 
-- Email: [your-email@example.com]  
+- Prefer opening a Security Advisory in this repo. If you can't, see alternate contact below
 - Or open a private issue in this repository with the label `security`.
+- - Email: [671eauzo@anonaddy.com]
 
 Please **do not post vulnerabilities publicly** until they are resolved.
 

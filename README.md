@@ -1,15 +1,17 @@
 # Meshtastic-alt-il 📡
 Community guide for configuring Meshtastic devices with our shared frequency, encryption, and network settings.
 
+
 # Meshtastic Community Setup Guide 🌐
 
 Welcome to our shared Meshtastic configuration project!  
 This guide explains how to set up your device to join our community mesh network
 
 # Disclaimer ⚠️
-This guide is provided for community use only. 
+This guide is provided for community use only, for community educational purposes only.  
 The authors and maintainers are not responsible for any device damage, interference, or legal issues arising from the use of these settings.
 Always follow local regulations and use devices responsibl.
+Participation in any shared network (like Telegram groups) is voluntary, and users should exercise caution and avoid sharing personal information.
 
 ## 🔍 What Is Meshtastic?
 
@@ -37,7 +39,8 @@ This document helps users configure their Meshtastic devices with:
 ---
 
 ## 🛠 Getting Started
-
+Join out community
+[💬 Telegram Group (requires admin approval)](https://t.me/+C4y1eP6NxwlhM2Y0)
 ### 1. Flash Your Device
 Use the [Meshtastic Flasher](https://flasher.meshtastic.org/) to install the latest firmware.
 

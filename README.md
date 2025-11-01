@@ -44,8 +44,6 @@ Use the [Meshtastic Flasher](https://flasher.meshtastic.org/) to install the lat
 ### 2. Load Our Configuration
 You can import the shared `.toml` or `.json` config from [config/](config/) directory:
 
-meshtastic --configure ./config/community.toml
-
 ## ⚙️ Configuration Summary
 
 
@@ -56,8 +54,26 @@ meshtastic --configure ./config/community.toml
 | **Frequency Slot** | 70 | |
 | **Center Frequency** | 919.375 MHz | |
 | **MQTT** | ✅ Enabled | OK to use with community broker |
+| **MQTT** | MQTT Root Topic | mesh\US\IL972 |
 | **Transmission** | ✅ Enabled | |
 | **Max Hops** | 7 | Recommended for stable mesh performance |
+
+## 📦 Recommended Mesh Devices for Starters
+
+If you're new to Meshtastic, here are some popular and beginner-friendly devices that work well with our shared network settings:
+
+| Device | Notes |
+|--------|-------|
+| **TTGO T-Beam (ESP32 + LoRa)** | Includes GPS, easy to flash, popular in the Meshtastic community. Great for outdoor use. |
+| **TTGO T-Call (ESP32 + LoRa + GSM)** | Similar to T-Beam, with cellular fallback. Useful if you want occasional LTE messages. |
+| **Heltec WiFi LoRa 32 V3/V4** | Compact, includes OLED display, V3 has 0.96" OLED, V4 has updated board layout. No GPS, but works well for indoor/outdoor mesh communication. |
+| **Generic ESP32 + LoRa modules** | Requires a bit more DIY effort but very flexible for experimenting with mesh networks. |
+
+**Tips for beginners:**
+- Start with a **Heltec** — easiest to flash and widely supported.  
+- Make sure to flash the **latest Meshtastic firmware** before joining the network.  
+- Pair your device with the **Meshtastic mobile app** for easier configuration and monitoring.  
+- **Important:** Always select the proper frequency for your region. Using the wrong frequency may be illegal or could interfere with other radio services.
 
 ```bash
 sss

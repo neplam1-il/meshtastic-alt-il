@@ -56,7 +56,7 @@ You can import the shared `.toml` or `.json` config from [config/](config/) dire
 | **Preset** | Long and Fast | Good balance of range and latency |
 | **Frequency Slot** |  70 | Important: Use Frequency Slot 70 (919.375 MHz) for this network. |
 | **Center Frequency** |  919.375 MHz |Important: Use Frequency Slot 70 (919.375 MHz) for this network. |
-| **MQTT** | Enabled | OK to use with community broker |
+| **MQTT** | Disabled | Use only if you are a radio "island" and wish to be a mqtt "relay". |
 | **MQTT** | MQTT Root Topic | mesh\US\IL972 |
 | **Transmission** |  Enabled | |
 | **Max Hops** | 7 | Recommended for stable mesh performance |
@@ -65,10 +65,17 @@ You can import the shared `.toml` or `.json` config from [config/](config/) dire
 
 Meshtastic devices use channels to communicate securely within a network. Our community uses a shared channel configuration:
 
-| Parameter          | Value                        | Notes |
-|-------------------|------------------------------|-------|
-| **TBD**         |TBD               | TBD |
+| Channel            | Description                  | Encrypted?                |
+|--------------------|------------------------------|---------------------------|
+| ***OpenComm***     |Used for general chatting     |  very weak key            |
+| ***MeshAlot-IL***  |Used for discussing the msh network itself | encrypted    |
+| ***EmrgComm-IL***  |Used during emergency situations | encrypted              |
+| ***LongFast***     |The default channel with the default key| NOT encrypted   |
 
+[This URL](https://meshtastic.org/e/#ChESAQAaCE9wZW5Db21tOgIIEAowEiAtb9BaS0k_TtWDrBCmUs7oRUXTw5l63D_ErbA5egua2xoKTWVzaEFsdC1JTDoACjESIJF-k550Ny0oNstvxiXCt7Zs-MZ_PmJdiATg-9TaVSSKGgtFbXJnQ29tbS1JTDoACgMSAQESGAgBGPoBIAsoBTgBQAdIAVAeWEZoAcgGAQ)
+will allow you to configure the channels on your device:
+
+ - Please note that this will REPLACE your channel list.
 
 **Tips for Channels:**
 - Always import our shared channel configuration to avoid conflicts.
@@ -82,8 +89,8 @@ If you're new to Meshtastic, here are some popular and beginner-friendly devices
 
 | Device | Notes |
 |--------|-------|
-| **TTGO T-Beam (ESP32 + LoRa)** | Includes GPS, easy to flash, popular in the Meshtastic community. Great for outdoor use. |
-| **TTGO T-Call (ESP32 + LoRa + GSM)** | Similar to T-Beam, with cellular fallback. Useful if you want occasional LTE messages. |
+| **Seeed Wio Tracker L1** | Includes GPS, easy to flash, popular in the Meshtastic community. Great for outdoor use. Small and portable.|
+| **Seeed SenseCAP Card Tracker T1000-E** | VERY small, VERY portable. Has a surprisingly good antenna for its size.|
 | **Heltec WiFi LoRa 32 V3/V4** | Compact, includes OLED display, V3 has 0.96" OLED, V4 has updated board layout. No GPS, high battery comsumtion. |
 | **Generic ESP32 + LoRa modules** | Requires a bit more DIY effort but very flexible for experimenting with mesh networks. |
 

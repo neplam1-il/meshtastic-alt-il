@@ -89,7 +89,7 @@ If you're new to Meshtastic, here are some popular and beginner-friendly devices
 
 | Device | Notes |
 |--------|-------|
-| **Seeed Wio Tracker L1** | Includes GPS, easy to flash, popular in the Meshtastic community. Great for outdoor use. Small and portable.|
+| **Seeed Wio Tracker L1** | Includes OLED display, GPS and a 5-way joystick. Based on NRF chip, much more power efficient. Very easy to flash, popular in the Meshtastic community. Great for outdoor use. Small and portable.|
 | **Seeed SenseCAP Card Tracker T1000-E** | VERY small, VERY portable. Has a surprisingly good antenna for its size.|
 | **Heltec WiFi LoRa 32 V3/V4** | Compact, includes OLED display, V3 has 0.96" OLED, V4 has updated board layout. No GPS, high battery comsumtion. |
 | **Generic ESP32 + LoRa modules** | Requires a bit more DIY effort but very flexible for experimenting with mesh networks. |

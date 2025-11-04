@@ -8,13 +8,15 @@ region = "US"               # United States region setting
 preset = "LONG_FAST"        # Long range, faster data rate preset
 frequency_slot = 70         # 919.375 MHz center frequency
 hop_limit = 7               # Recommended for stable multi-hop routing
+transmit_enabled= true      # Enables transmission via LORA
+OK_to_MQTT = true           # Allows your messages to pass via MQTT. Needed as not all mesh members have LORA link between them.
+Ignore_MQTT = false         # Do not ignore messages coming via MQTT.
 
 [MQTT]
 # Optional but recommended for bridging long distances
 enabled = false
 json_enabled = true
 encryption_enabled = true
-transmit_enabled = true
 root_topic = "mesh/US/IL972"
 
 # Uncomment and update with broker details if needed:

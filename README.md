@@ -73,7 +73,11 @@ Meshtastic devices use channels to communicate securely within a network. Our co
 | ***LongFast***     |The default channel with the default key| NOT encrypted   |
 
 [This URL](https://meshtastic.org/e/#ChESAQAaCE9wZW5Db21tOgIIEAowEiAtb9BaS0k_TtWDrBCmUs7oRUXTw5l63D_ErbA5egua2xoKTWVzaEFsdC1JTDoACjESIJF-k550Ny0oNstvxiXCt7Zs-MZ_PmJdiATg-9TaVSSKGgtFbXJnQ29tbS1JTDoACgMSAQESGAgBGPoBIAsoBTgBQAdIAVAeWEZoAcgGAQ)
-will allow you to configure the channels on your device:
+will allow you to configure the channels on your device.
+
+You can also use this QR image:
+
+<img src="images/qrcode_meshtastic.org.png" alt="" width="200" height="200">
 
  - Please note that this will REPLACE your channel list.
 
@@ -89,7 +93,7 @@ If you're new to Meshtastic, here are some popular and beginner-friendly devices
 
 | Device | Notes |
 |--------|-------|
-| **Seeed Wio Tracker L1** | Includes GPS, easy to flash, popular in the Meshtastic community. Great for outdoor use. Small and portable.|
+| **Seeed Wio Tracker L1** | Includes OLED display, GPS and a 5-way joystick. Based on NRF chip, much more power efficient. Very easy to flash, popular in the Meshtastic community. Great for outdoor use. Small and portable.|
 | **Seeed SenseCAP Card Tracker T1000-E** | VERY small, VERY portable. Has a surprisingly good antenna for its size.|
 | **Heltec WiFi LoRa 32 V3/V4** | Compact, includes OLED display, V3 has 0.96" OLED, V4 has updated board layout. No GPS, high battery comsumtion. |
 | **Generic ESP32 + LoRa modules** | Requires a bit more DIY effort but very flexible for experimenting with mesh networks. |
@@ -100,7 +104,4 @@ If you're new to Meshtastic, here are some popular and beginner-friendly devices
 - Pair your device with the **Meshtastic mobile app** for easier configuration and monitoring.  
 - **Important:** Always select the proper frequency for your region. Using the wrong frequency may be illegal or could interfere with other radio services.
 
-```bash
-
-
-.
+##

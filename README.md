@@ -73,7 +73,11 @@ Meshtastic devices use channels to communicate securely within a network. Our co
 | ***LongFast***     |The default channel with the default key| NOT encrypted   |
 
 [This URL](https://meshtastic.org/e/#ChESAQAaCE9wZW5Db21tOgIIEAowEiAtb9BaS0k_TtWDrBCmUs7oRUXTw5l63D_ErbA5egua2xoKTWVzaEFsdC1JTDoACjESIJF-k550Ny0oNstvxiXCt7Zs-MZ_PmJdiATg-9TaVSSKGgtFbXJnQ29tbS1JTDoACgMSAQESGAgBGPoBIAsoBTgBQAdIAVAeWEZoAcgGAQ)
-will allow you to configure the channels on your device:
+will allow you to configure the channels on your device.
+
+You can also use this QR image:
+
+![](images/qrcode_meshtastic.org.png)
 
  - Please note that this will REPLACE your channel list.
 

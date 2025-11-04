@@ -11,7 +11,7 @@ hop_limit = 7               # Recommended for stable multi-hop routing
 
 [MQTT]
 # Optional but recommended for bridging long distances
-enabled = true
+enabled = false
 json_enabled = true
 encryption_enabled = true
 transmit_enabled = true

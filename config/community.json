@@ -6,7 +6,7 @@
     "hop_limit": 7
   },
   "MQTT": {
-    "enabled": true,
+    "enabled": false,
     "json_enabled": true,
     "encryption_enabled": true,
     "transmit_enabled": true,

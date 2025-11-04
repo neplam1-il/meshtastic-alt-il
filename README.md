@@ -77,7 +77,7 @@ will allow you to configure the channels on your device.
 
 You can also use this QR image:
 
-![](images/qrcode_meshtastic.org.png)
+<img src="images/qrcode_meshtastic.org.png" alt="" width="200" height="200">
 
  - Please note that this will REPLACE your channel list.
 

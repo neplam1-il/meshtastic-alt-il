@@ -104,7 +104,4 @@ If you're new to Meshtastic, here are some popular and beginner-friendly devices
 - Pair your device with the **Meshtastic mobile app** for easier configuration and monitoring.  
 - **Important:** Always select the proper frequency for your region. Using the wrong frequency may be illegal or could interfere with other radio services.
 
-```bash
-
-
-.
+##

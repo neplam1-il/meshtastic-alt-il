@@ -3,13 +3,15 @@
     "region": "US",
     "preset": "LONG_FAST",
     "frequency_slot": 70,
-    "hop_limit": 7
+    "hop_limit": 7,
+    "transmit_enabled": true,
+    "OK_to_MQTT": true,
+    "Ignore_MQTT": false
   },
   "MQTT": {
     "enabled": false,
     "json_enabled": true,
     "encryption_enabled": true,
-    "transmit_enabled": true,
     "root_topic": "mesh/US/IL972"
   },
   "Device": {

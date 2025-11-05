@@ -57,7 +57,7 @@ You can import the shared `.toml` or `.json` config from [config/](config/) dire
 | **Frequency Slot** |  70 | Important: Use Frequency Slot 70 (919.375 MHz) for this network. |
 | **Center Frequency** |  919.375 MHz |Important: Use Frequency Slot 70 (919.375 MHz) for this network. |
 | **MQTT** | Disabled | Use only if you are a radio "island" and wish to be a mqtt "relay". |
-| **MQTT** | MQTT Root Topic | mesh\US\IL972 |
+| **MQTT** | MQTT Root Topic | msh\US\IL972 |
 | **Transmission** |  Enabled | |
 | **Max Hops** | 7 | Recommended for stable mesh performance |
 

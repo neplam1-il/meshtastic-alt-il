@@ -17,7 +17,7 @@ Ignore_MQTT = false         # Do not ignore messages coming via MQTT.
 enabled = false
 json_enabled = true
 encryption_enabled = true
-root_topic = "mesh/US/IL972"
+root_topic = "msh/US/IL972"
 
 # Uncomment and update with broker details if needed:
 # address = "mqtts://username:password@your.broker.address:8883"

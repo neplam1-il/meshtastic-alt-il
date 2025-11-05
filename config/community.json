@@ -12,7 +12,7 @@
     "enabled": false,
     "json_enabled": true,
     "encryption_enabled": true,
-    "root_topic": "mesh/US/IL972"
+    "root_topic": "msh/US/IL972"
   },
   "Device": {
     "name": "ALTIL-New-Node",
